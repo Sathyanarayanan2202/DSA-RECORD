@@ -1,0 +1,27 @@
+----- Algorithm for Stack Operations -----
+
+Step-1: Start the program
+Step-2: Initialize:
+       -> Stack array of size n
+       -> top = -1
+Step-3: Display the menu:
+	      1. Push
+	      2. Pop
+	      3. Display
+	      4. Exit
+Step-4: Repeat until the user chooses to exit:
+	    -> Read user's choice (opt)
+	    -> If user chooses 1 (Push Operation):
+			    => Check Overflow condition, top == n-1
+			    => If not, increment top and insert value
+	    -> If user chooses 2 (Pop Operation): 
+			    => Check Underflow condition, top == -1
+			    => If not, delete the top element and decrement top
+	    -> If user chooses 3 (Display Operation):
+			    => Check if the Stack is empty, top == -1
+			    => If not, traverse the stack from top to 0 and display all elements.
+	    -> If user chooses 4 (Exit):
+			    => Display the exit message.
+	    -> Otherwise:
+			    => Display "Invalid choice"
+Step-5: Stop the program			
