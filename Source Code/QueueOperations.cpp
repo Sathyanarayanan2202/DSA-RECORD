@@ -25,7 +25,7 @@ void Enqueue(){
 }
 
 void Dequeue(){
-	if(rear == -1) || front > rear{
+	if(rear == -1 || front > rear){
 		cout<<"Queue Underflow"<<endl;
 		return;
 	} else {
