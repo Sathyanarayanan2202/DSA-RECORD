@@ -1,0 +1,21 @@
+----- Algorithm for queue operations -----
+
+Step-1: Start the program
+Step-2: Initialize:
+		-> Queue array with size n
+		-> front = -1
+		-> rear = -1
+Step-3: Enqueue():
+		=> Check for Overflow condition, rear == n-1.
+		=> For the first element (front == -1):
+			-> set front = 0
+		=> Insert value into the queue and increment rear.
+	   
+	    Dequeue():
+		=> Check for Underflow condition, rear == -1 or front > rear
+		=> Delete the element and increment front
+
+	    Display():
+		=> Check if the queue is empty, rear == -1 or front > rear
+		=> Traverse the queue from front to rear and display all elements.
+Step-4: Stop the program

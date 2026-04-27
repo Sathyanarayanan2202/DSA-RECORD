@@ -1,0 +1,11 @@
+---- Algorithm for Bubble Sort ----
+
+Step-1: Start the program
+Step-2: Read the number of the elements n
+Step-3: Read n number of elements into the array arr.
+Step-4: For i from 0 to n-2:
+		For j from 0 to n-i-2:
+			If arr[j] > arr[j+1]:
+				Swap arr[j] and arr[j+1].
+Step-5: Display the sorted array.
+Step-6: Stop the program.

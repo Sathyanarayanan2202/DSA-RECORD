@@ -1,0 +1,14 @@
+---- Algorithm for Insertion Sort ----
+
+Step-1: Start the program.
+Step-2: Read number of elements n.
+Step-3: Read n number of elements into the array arr.
+Step-4: For i from 1 to n-1:
+		-> Set key = arr[i]
+		-> Set j = i-1
+		-> While j >= 0 and arr[j] > key:
+			=> Move arr[j] to arr[j+1]
+			=> Decrement j
+		-> Place the key in the correct position.
+Step-5: Display the sorted array.
+Step-6: Stop the program.

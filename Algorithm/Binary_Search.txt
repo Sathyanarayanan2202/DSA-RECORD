@@ -1,0 +1,14 @@
+---- Algorithm for Binary Search ----
+
+Step-1: Start the program
+Step-2: Read the number of elements n.
+Step-3: Read n number of elements into the array arr.
+Step-4: Read the element for search operation (Key).
+Step-5: Set low = 0, high = n-1;
+Step-6: Repeat while low <= high:
+		-> set mid = (low + high)/2.
+		-> If arr[mid] == key, display the position and stop.
+		-> Else If arr[mid] > key, set high = mid - 1.
+		-< Else, Set low = mid + 1.
+Step-7: If not found, display "Element not found".
+Step-8: Stop.

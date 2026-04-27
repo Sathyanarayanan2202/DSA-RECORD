@@ -1,0 +1,10 @@
+---- Algorithm for Linear Search ----
+
+Step-1: Start the program
+Step-2: Read the number of elements n
+Step-3: Read n number of elements into the array arr.
+Step-4: Read the element for the search operation (Key).
+Step-5: Traverse the array arr from index 0 to n-1:
+		-> If arr[i] == key, display the position of the element and stop.
+Step-6: If not found, display "Element not found".
+Step-7: Stop.
